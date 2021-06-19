@@ -1,0 +1,30 @@
+#fade{
+    opacity: 0%;
+    animation-name: fade_in;
+    -webkit-animation-name: fade_in;
+    animation-duration: 5s;
+    -webkit-animation-duration: 5s;
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+@keyframes fade_in{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@-webkit-keyframes fade_in{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes skids{
+
+}

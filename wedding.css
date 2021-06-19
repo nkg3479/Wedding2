@@ -42,6 +42,7 @@ header {
 }
 header > h1 {
   font-size: 4em;
+
 }
 main {
   background-color: rgba(255,255,255,0.75);
@@ -271,3 +272,21 @@ button {
   padding: 0px 0px;
   box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
 }
+.slide.start
+{
+  position: relative;
+  left: -80vw;
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  -webkit-animation: slide 1s forwards;
+  -webkit-animation-delay: .7s;
+  animation: slide 1s forwards;
+  animation-delay: .7s;
+}
+@-webkit-keyframes slide {
+  
+  100% { left: 0; }
+}
+@keyframes slide {
+  100% { left: 0; }
+} 
